@@ -12,8 +12,6 @@ app.secret_key = "CountingChickens"
 SQL_DB_NAME="pass_dev.db"
 SQL_TBL_NAME='dev2'
 
-
-
 @app.route('/', methods=['POST', 'GET'])
 def home_template():
     if request.method == 'POST':
