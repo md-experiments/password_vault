@@ -1,2 +1,2 @@
-something to hide
-something else to hide too
+Something to hide
+Something else to hide too

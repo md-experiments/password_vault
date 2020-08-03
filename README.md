@@ -1,6 +1,10 @@
 # Password Vault
 This repo is a basic password vault which allows you to encrypt some data and continuously add to it
 
+<p align="center">
+  <img src="assets/pass_value_preview.gif" width=400>
+</p>
+
 # Usage
 1. clone repo, create environment and run requirements.txt
 2. Create file password.txt with your password

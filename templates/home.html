@@ -6,7 +6,7 @@
     <form autocomplete="off" id="new-blog" action="/" method="post">
         <div class="form-group">
             <label for="title">Password</label>
-            <input autocomplete="off" type="text" id="title" class="form-control" name="title">
+            <input autocomplete="off" type="password" id="title" class="form-control" name="title">
         </div>
 
         <button type="submit" class="btn btn-success">Unlock</button>
@@ -25,7 +25,7 @@
 
     <script>
         $(document).ready(function () {
-            var nowPlus30Seconds = moment().add('10', 'seconds').format('YYYY/MM/DD HH:mm:ss');
+            var nowPlus30Seconds = moment().add('5', 'seconds').format('YYYY/MM/DD HH:mm:ss');
 
             $('#divCountdown').countdown(nowPlus30Seconds)
                               .on('update.countdown', function (event) { $(this).html(event.strftime('Expires in %H:%M:%S')); })
