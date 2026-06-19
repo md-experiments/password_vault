@@ -10,7 +10,7 @@ requires-python = "^3.11"
 dependencies = [
     "flask (==2.2.5)",
     "werkzeug (==3.1.6)",
-    "cryptography (==46.0.6)"
+    "cryptography (==48.0.1)"
 ]
 
 
